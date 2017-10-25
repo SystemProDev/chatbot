@@ -1,0 +1,24 @@
+{
+  "name": "chatbot-master",
+  "version": "1.0.0",
+  "description": "JS chatbot plugin",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jquery",
+    "zora",
+    "panev",
+    "zoki",
+    "poki",
+    "js",
+    "chatbot"
+  ],
+  "author": "Zoran Panev",
+  "license": "ISC",
+  "dependencies": {
+    "autosize": "^4.0.0",
+    "dragscroll": "0.0.8"
+  }
+}
