@@ -85,7 +85,7 @@ form#convForm {
     margin: 10px auto 15px;
     padding: 0 !important;
     position: relative;
-    box-shadow: 0 0 5px 5px rgba(222, 222, 222, 0.4);
+    /* box-shadow: 0 0 5px 5px rgba(222, 222, 222, 0.4); */
 }
 form#convForm textarea#userInput {
     border: none;
@@ -165,10 +165,11 @@ div#chat div.options {
     word-wrap: normal;
     white-space: nowrap;
     overflow-x: scroll;
-    position: absolute;
+    position: relative;
     bottom: 100%;
     width: 100%;
     transform: translateY(-5px);
+    display: grid;
 }
 div#chat div.options:after {
     content: '';
@@ -203,7 +204,7 @@ div#chat.conv-form-wrapper  div#messages div.message {
     padding: 12px 22px;
     font-size: 0.905rem;
     color: #333;
-    display: inline-block;
+    display: block;
     padding: 10px 15px 12px;
     border-radius: 20px;
     margin-bottom: 5px;
@@ -221,6 +222,11 @@ div#chat.conv-form-wrapper  div#messages div.message.to {
 div#chat.conv-form-wrapper div#messages div.message.from {
     background: #06b79a;
     color: #fff;
+}
+div#chat div.text-input {
+    width: 100%;
+    display: inline-block;
+    box-shadow: 0 0 5px 5px rgba(222, 222, 222, 0.4);
 }
 .message.to+.message.from, .message.from+.message.to {
     margin-top: 15px;
