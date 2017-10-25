@@ -1,8 +1,8 @@
-# convForm
+# Chatbot Plugin
 
 A plugin that transforms a form into a interative chat.
 
-#### [Demo](https://eduardotkoller.github.io/convForm)
+#### [Demo](http://demo-it.stackstaging.com/chatbot/)
 
 Features:
 
